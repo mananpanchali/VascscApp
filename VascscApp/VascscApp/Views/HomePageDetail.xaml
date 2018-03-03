@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VascscApp.Views.HomePageDetail"
+             Title="VASCSC">
+  <StackLayout Padding="10" Orientation="Vertical">
+        <Image Source="Building.jpg" />
+        <Label Text="Welcome to Vikram A Sarabhai Community Science Centre." FontAttributes="Bold"/>
+        <Label Text="Vikram A. Sarabhai Community Science Centre (VASCSC) established in the 1960s by the eminent space scientist, Dr. Vikram A. Sarabhai is working towards popularizing science and mathematics education among students, teachers and the laypublic. Its mandate is to stimulate interest, encourage and expose the principles of science and scientific method and also to improve and find innovative methods of science education."/>
+    </StackLayout>
+</ContentPage>
