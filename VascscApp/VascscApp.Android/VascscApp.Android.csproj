@@ -86,6 +86,15 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Building.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scienceforum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\summer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\teacher.jpg" />
+  </ItemGroup>
   <Import Project="..\VascscApp\VascscApp.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

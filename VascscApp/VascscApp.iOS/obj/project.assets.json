@@ -696,26 +696,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\deval\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Xamarin\\VascscApp\\VascscApp\\VascscApp\\VascscApp.iOS\\VascscApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\deval\\Source\\Repos\\VascscApp\\VascscApp\\VascscApp.iOS\\VascscApp.iOS.csproj",
       "projectName": "VascscApp.iOS",
-      "projectPath": "E:\\Xamarin\\VascscApp\\VascscApp\\VascscApp\\VascscApp.iOS\\VascscApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\manan\\.nuget\\packages\\",
-      "outputPath": "E:\\Xamarin\\VascscApp\\VascscApp\\VascscApp\\VascscApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\deval\\Source\\Repos\\VascscApp\\VascscApp\\VascscApp.iOS\\VascscApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\deval\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\deval\\Source\\Repos\\VascscApp\\VascscApp\\VascscApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\manan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\deval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"

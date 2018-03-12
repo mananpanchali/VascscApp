@@ -4,9 +4,24 @@
              x:Class="VascscApp.Views.ItemDetailPage"
              Title="{Binding Title}">
     <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" FontSize="Small"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="120" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+         
+            </Grid.ColumnDefinitions>
+            <Label Text="{Binding Item.Text}" Grid.Row="0" Grid.Column="0"  FontAttributes="Bold"/>
+            <Image Source="{Binding Item.Image}" Grid.Row="1" Grid.Column="0" />
+
+            <Label Text="{Binding Item.Description}" Grid.Row="2" Grid.Column="0"  />
+          
+        </Grid>
+        
+        
+      
     </StackLayout>
 </ContentPage>

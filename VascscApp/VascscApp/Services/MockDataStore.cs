@@ -17,12 +17,9 @@ namespace VascscApp.Services
             items = new List<Item>();
             var mockItems = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "6-7 Apr 2017", Description="Hands-on approaches in Science and Mathematics Education." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "17-19 May 2017", Description="Hands-on approaches in Science Education." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "4-8 July 2017", Description="Computer Teachers Training." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "4-5 July 2017", Description="Model Rocketry Workshop." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "7-8 July 2017", Description="Model Rocketry Workshop." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "11-15 July 2017", Description="Computer Teachers Training." },
+                new Item { Id = Guid.NewGuid().ToString(), Image="scienceforum.jpg", Text = "School Science Forum", Description="The VASCSC School Science Forum (SSF) programme successfully entered into its second year; it is now extended up to Std. IX. This syllabus oriented, year-long programme has received overwhelming response from 435 participants, as well as parents. It has become one of the most sought after programmes of VASCSC. The objective of this programme was to facilitate practical learning of science and mathematics by providing the students, an opportunity to strengthen the basic concepts of these subjects through experiments and activities, conducted in the Centre's well-equipped labs. The programme started on 15 July 2012. 30 sessions were conducted for each standard covering topics that required practical input as well as educational visits." },
+                new Item { Id = Guid.NewGuid().ToString(), Image="summer.jpg", Text = "Summer Programmes", Description="These programmes are conducted during the school summer breaks from April to June every year. Interesting and hands-on activities in fields like computers, physics, chemistry, applied mathematics, astronomy and biology make these programmes highly sought-after.Summer programmes are announced during the month of April. The details are then available on the Centre's notice board as well as on the website." },
+                new Item { Id = Guid.NewGuid().ToString(), Image="Logo.png", Text = "Teacher Training Programmes", Description="Computer The Education Department, Government of Gujarat has designated VASCSC as one of the recognized training Centres for computer training. Training programmes for secondary and higher secondary computer teachers are conducted through pre - announced batches.Further information can be availed from the Computer department or mail us at info@vascsc.org." },
             };
 
             foreach (var item in mockItems)

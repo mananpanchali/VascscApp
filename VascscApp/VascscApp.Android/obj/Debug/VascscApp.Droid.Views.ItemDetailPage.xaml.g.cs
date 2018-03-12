@@ -11,7 +11,8 @@
 namespace VascscApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Xamarin\\VascscApp\\VascscApp\\VascscApp\\VascscApp\\Views\\ItemDetailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\deval\\Source\\Repos\\VascscApp\\VascscApp\\VascscApp\\Views\\ItemDetailPage.xa" +
+        "ml")]
     public partial class ItemDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

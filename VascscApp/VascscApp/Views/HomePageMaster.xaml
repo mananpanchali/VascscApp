@@ -9,7 +9,7 @@
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
       <ListView.Header>
-        <Grid BackgroundColor="#03A9F4">
+        <Grid BackgroundColor="#FFFFFF">
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
@@ -25,12 +25,11 @@
                            Aspect="AspectFit"
               Grid.Column="1"
               Grid.Row="1" />
-                    <Label
-              Grid.Column="1"
-              Grid.Row="2"
-              Text="Vikram A Sarabhai Community Science Centre"
-              Style="{DynamicResource SubtitleStyle}"/>
-        </Grid>
+
+                    <BoxView HeightRequest="2" Color="#200E58"  Grid.Column="1"
+              Grid.Row="2" />
+
+                </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
@@ -38,12 +37,15 @@
             <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="Honeydew">
               <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
+                     TextColor="#200E58"
                     Text="{Binding Title}" 
-                    FontSize="24"/>
+                    FontSize="20"/>
             </StackLayout>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
-  </StackLayout>
+
+        <BoxView HeightRequest="2" Color="#200E58"  />
+    </StackLayout>
 </ContentPage>
