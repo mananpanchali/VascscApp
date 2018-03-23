@@ -4,7 +4,8 @@
              x:Class="VascscApp.Views.ItemsPage"
               Title="VASCSC.org"    
              x:Name="BrowseItemsPage">
-    <ContentPage.ToolbarItems>
+    <ContentPage.ToolbarItems >
+        
         <!-- <ToolbarItem Text="Add" Clicked="AddItem_Clicked" /> -->
         <ToolbarItem Icon="icon.png" />
     </ContentPage.ToolbarItems>
